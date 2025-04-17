@@ -1,6 +1,24 @@
+import FeatureCards from "./sections/FeatureCards";
+import Navbar from "./components/Navbar";
+import Hero from "./sections/Hero";
+import Showcase from "./sections/Showcase";
+import Experience from "./sections/Experience";
+import TechStack from "./sections/TechStack";
+import Contact from "./sections/Contact";
+import Footer from "./sections/Footer";
+
 const App = () => {
 	return (
-		<div className="text-2xl text-amber-200">Hi Nitish! Let's get going</div>
+		<div>
+			<Navbar />
+			<Hero />
+			<Showcase />
+			<FeatureCards />
+			<Experience />
+			<TechStack />
+			<Contact />
+			<Footer />
+		</div>
 	);
 };
 
