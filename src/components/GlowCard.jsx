@@ -19,6 +19,8 @@ const GlowCard = ({ card, children, index }) => {
 		card.style.setProperty("--start", angle + 60);
 	};
 
+	if (card.review.length === 0) return;
+
 	return (
 		<div
 			className="card card-border timeline-card rounded-xl p-10"
